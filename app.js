@@ -67,5 +67,8 @@ app.use(function(err, req, res, next) {
   });
 });
 
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/javascripts', express.static(path.join(__dirname, 'public/javascripts')));
+app.use('/stylesheets', express.static(path.join(__dirname, 'public/stylesheets')));
 
 module.exports = app;
