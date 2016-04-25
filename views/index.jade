@@ -1,0 +1,183 @@
+extends layout
+
+block content
+  
+  #wrapper(ng-controller="adminController")
+    #header
+        p Ugovernence.in
+        p Analysis
+        p Execute
+    #map
+    form#colors
+
+      p 
+        b Gender
+
+      label
+        input(type  ='checkbox' name='filter_gender' ng-click='filterMap()' value='Male')
+        | Male
+        br
+      label
+        input(type='checkbox' name='filter_gender' ng-click='filterMap()' value='Female')
+        | Female
+        br
+
+      p 
+        b Age group {{$scope.age}}
+
+      select(name='age' ng-model='selected_age' ng-change='filterMap()')
+        option(value='', selected) Select an age group
+        option(value='{{age[0]}}') {{age[0]}}
+        option(value='{{age[1]}}') {{age[1]}}
+        option(value='{{age[2]}}') {{age[2]}}
+        option(value='{{age[3]}}') {{age[3]}}
+        option(value='{{age[4]}}') {{age[4]}}
+        option(value='{{age[5]}}') {{age[5]}}
+
+      p 
+        b Issue
+
+      select(name='title' ng-model='selected_title' ng-change='filterMap()')
+        option(value='', selected) Select an issue
+        option(value='{{title[0]}}') {{title[0]}}
+        option(value='{{title[1]}}') {{title[1]}}
+        option(value='{{title[2]}}') {{title[2]}}
+        option(value='{{title[3]}}') {{title[3]}}
+        option(value='{{title[4]}}') {{title[4]}}
+        option(value='{{title[5]}}') {{title[5]}}
+
+      div.issue_list(ng-show='selected_title === title[0]')
+        p 
+          b {{title[0]}}
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{basic_services[0]}}')
+        | {{basic_services[0]}}
+        br
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{basic_services[1]}}')
+        | {{basic_services[1]}}
+        br
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{basic_services[3]}}')
+        | {{basic_services[2]}}
+        br
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{basic_services[3]}}')
+        | {{basic_services[3]}}
+        br
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{basic_services[4]}}')
+        | {{basic_services[4]}}
+        br
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{basic_services[5]}}')
+        | {{basic_services[5]}}
+        br
+
+      div.issue_list(ng-show='selected_title === title[1]')
+        p 
+          b {{title[1]}}
+        label
+        input(type  ='checkbox' name='filters' ng-click='filterMap()' value='{{education_improvements[0]}}')
+        | {{education_improvements[0]}}
+        br
+
+      div.issue_list(ng-show='selected_title === title[2]')
+        p 
+          b {{title[2]}}
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{health_issues[0]}}')
+        | {{health_issues[0]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{health_issues[1]}}')
+        | {{health_issues[1]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{health_issues[2]}}')
+        | {{health_issues[2]}}
+        br
+
+      div.issue_list(ng-show='selected_title === title[3]')
+        p 
+          b {{title[3]}}
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{home_improvements[0]}}')
+        | {{home_improvements[0]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{home_improvements[1]}}')
+        | {{home_improvements[1]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{home_improvements[2]}}')
+        | {{home_improvements[2]}}
+        br
+
+      div.issue_list(ng-show='selected_title === title[4]')
+        p 
+          b {{title[4]}}
+        label
+        input(type  ='checkbox' name='filters_issues' ng-click='filterMap()' value='{{personal_issues[0]}}')
+        | {{personal_issues[0]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{personal_issues[1]}}')
+        | {{personal_issues[1]}}
+        br
+
+      div.issue_list(ng-show='selected_title === title[5]')
+        p 
+          b {{title[5]}}
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{infrastructure_issues[0]}}')
+        | {{infrastructure_issues[0]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{infrastructure_issues[1]}}')
+        | {{infrastructure_issues[1]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{infrastructure_issues[2]}}')
+        | {{infrastructure_issues[2]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{infrastructure_issues[3]}}')
+        | {{infrastructure_issues[3]}}
+        br
+        label
+        input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{infrastructure_issues[4]}}')
+        | {{infrastructure_issues[4]}}
+        br
+      #download
+        a(herf='/downloads/final.csv') Download csv
+        button(class='btn btnCsvDownload' ng-click='downloadCsv()') Download csv
+
+    #charts
+
+      div
+        select(name='cluster' ng-model='selected_cluster' ng-change='draw_charts()')
+          option(value='', selected) Select a Cluster
+          option(value='{{clusters[0]}}' selected) {{clusters[0]}}
+          option(value='{{clusters[1]}}') {{clusters[1]}}
+          option(value='{{clusters[2]}}') {{clusters[2]}}
+          option(value='{{clusters[3]}}') {{clusters[3]}}
+        
+
+      div.chart_section
+        div.chart_parent
+          div(google-chart chart="chart1")
+        div.chart_parent
+          div(google-chart chart="chart2")
+
+      div.chart_section
+        div.chart_parent_full
+          div(google-chart chart="chart3")
+
+      div.chart_section
+        div.chart_parent
+          div(google-chart chart="chart4")
+        div.chart_parent
+          div(google-chart chart="chart5")
+          
+
+
+      
+        
+
+

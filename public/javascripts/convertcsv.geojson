@@ -1,0 +1,590 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51169188510296,23.02620277777778 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51190557666108,23.02618972033026 ]
+    },
+    "properties": {
+    "Title":"Home Improvement",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"Need Pakka Roof"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51209184106958,23.02619106927275 ]
+    },
+    "properties": {
+    "Title":"Home Improvement",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"Need Pakka Roof"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51227027527204,23.02620239410766 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"Need electricity connections"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51227027527204,23.02620239410766 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"50-59",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51244212570825,23.02618586245201 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"30-39",
+    "Issue":"Need electricity connections"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51261086174573,23.02620544852062 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"30-39",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51282801757333,23.02618383480745 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"20-29",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51166833917338,23.02603179501744 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"60-69",
+    "Issue":"Need community toilets"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51167688113713,23.02587988258546 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Female",
+    "Age":"20-29",
+    "Issue":"Need Private toilet"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51167889738332,23.02575717792209 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Male",
+    "Age":"30-39",
+    "Issue":"Need Pakka Roof"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51169054938792,23.0263917543518 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Female",
+    "Age":"30-39",
+    "Issue":"Need Pakka Roof"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51170085442281,23.02658980823171 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Female",
+    "Age":"20-29",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51170399813387,23.02681066329663 ]
+    },
+    "properties": {
+    "Title":"Personal Issues.",
+    "Gender":"Female",
+    "Age":"60-69",
+    "Issue":"Domestic quarells and fights"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51301774015963,23.02619438792652 ]
+    },
+    "properties": {
+    "Title":"Personal Issues.",
+    "Gender":"Female",
+    "Age":"40-49",
+    "Issue":"Need Private toilet"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51317759344759,23.02620573716959 ]
+    },
+    "properties": {
+    "Title":"Education Improvement",
+    "Gender":"Female",
+    "Age":"30-39",
+    "Issue":"Need of Public School"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51334822228499,23.02619515002143 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"Need electricity connections"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51166833917338,23.02620277777778 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51167688113713,23.02618972033026 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51167889738332,23.02619106927275 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Female",
+    "Age":"10-19",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51169054938792,23.02620239410766 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Female",
+    "Age":"10-19",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51170085442281,23.02620239410766 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Male",
+    "Age":"30-39",
+    "Issue":"Need Private toilet"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51170399813387,23.02618586245201 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Male",
+    "Age":"50-59",
+    "Issue":"Need pakka walls."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51301774015963,23.02620544852062 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Female",
+    "Age":"60-69",
+    "Issue":"No access to cooking fuel."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51317759344759,23.02618383480745 ]
+    },
+    "properties": {
+    "Title":"Health Issues",
+    "Gender":"Male",
+    "Age":"40-49",
+    "Issue":"Need a health center."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51334822228499,23.02603179501744 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"30-39",
+    "Issue":"Need electricity connections"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51169188510296,23.02587988258546 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"30-39",
+    "Issue":"Need access to sewer line"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51190557666108,23.02575717792209 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"50-59",
+    "Issue":"Need access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51209184106958,23.0263917543518 ]
+    },
+    "properties": {
+    "Title":"Health Issues",
+    "Gender":"Male",
+    "Age":"60-69",
+    "Issue":"Malaria Epidemic."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51227027527204,23.02658980823171 ]
+    },
+    "properties": {
+    "Title":"Health Issues",
+    "Gender":"Male",
+    "Age":"60-69",
+    "Issue":"No access to health centre."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51227027527204,23.02681066329663 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Female",
+    "Age":"10-19",
+    "Issue":"Need individual bathrooms."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51244212570825,23.02619438792652 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Female",
+    "Age":"10-19",
+    "Issue":"Need community toilets"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51261086174573,23.02620573716959 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"20-29",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51282801757333,23.02619515002143 ]
+    },
+    "properties": {
+    "Title":"Personal Issues.",
+    "Gender":"Female",
+    "Age":"20-29",
+    "Issue":"Domestic quarells and fights"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51169188510296,23.02587988258546 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Male",
+    "Age":"50-59",
+    "Issue":"Need Private toilet"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51190557666108,23.02575717792209 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Female",
+    "Age":"50-59",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51209184106958,23.0263917543518 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Male",
+    "Age":"30-39",
+    "Issue":"Need community toilets"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51227027527204,23.02658980823171 ]
+    },
+    "properties": {
+    "Title":"Infrastructure",
+    "Gender":"Female",
+    "Age":"10-19",
+    "Issue":"Need individual bathrooms."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51227027527204,23.02681066329663 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Female",
+    "Age":"20-29",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51244212570825,23.02619438792652 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"40-49",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51261086174573,23.02620573716959 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"No access to tap water."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51282801757333,23.02619515002143 ]
+    },
+    "properties": {
+    "Title":"Home Improvement",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"Need Pakka Roof"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51166833917338,23.02620239410766 ]
+    },
+    "properties": {
+    "Title":"Home Improvement",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"Need Pakka Roof"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51167688113713,23.02620239410766 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"10-19",
+    "Issue":"Need electricity connections"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 72.51167889738332,23.02618586245201 ]
+    },
+    "properties": {
+    "Title":"Basic Services",
+    "Gender":"Male",
+    "Age":"50-59",
+    "Issue":"No access to tap water."
+    }
+  }
+]
+}

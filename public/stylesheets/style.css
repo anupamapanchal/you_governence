@@ -1,0 +1,75 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+
+a {
+  color: #00B7FF;
+}
+input{
+	padding: 5px;
+}
+button{
+	padding: 8px 20px;
+}
+body { 
+	margin:0; 
+	padding:0;
+	background: #6A4CA6;
+	
+}
+
+#header{
+	padding: 10px;
+	color: white;
+	float: left;
+	width: 100%;
+}
+#header > p{
+	float: right;
+	padding: 0px 20px;
+}
+#header > p:first-child{
+	float: left;
+}
+#map { 
+	height: 550px; 
+	width:100%; 
+}
+
+#colors {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    background: #fff;
+    width: 200px;
+    padding:10px;
+}
+.btn{
+
+}
+.btnCsvDownload{
+
+}
+
+#charts{
+	padding: 20px 50px;
+}
+.chart_section{
+	background: white;
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	
+}
+.chart_parent{
+	width: 50%;
+	float: left;
+}
+.chart_parent_full{
+	width:100%;
+	float: left;
+}
+#chart1, #chart2{
+	
+}
+
