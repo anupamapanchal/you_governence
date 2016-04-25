@@ -358,7 +358,7 @@ $scope.downloadCsv = function(){
             method: 'GET',
             url: '/downloads',
         }).then(function(res){
-            $window.open('/download');
+            $window.open('/downloads');
         });
 }
 
