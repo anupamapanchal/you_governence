@@ -356,7 +356,7 @@ $scope.filterMap = function() {
 $scope.downloadCsv = function(){
     $http({
             method: 'GET',
-            url: '/download',
+            url: '/downloads',
         }).then(function(res){
             $window.open('/download');
         });
