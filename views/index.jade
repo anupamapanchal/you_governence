@@ -5,13 +5,17 @@ block content
   #wrapper(ng-controller="adminController")
     #header
         p Ugovernence.in
-        p Analysis
-        p Execute
+        p 
+          a(href="#map") Analyze
+        p
+          a(href="#execute") Execute
         
     #map
     form#colors
 
-      p 
+      h3.heading Data Filter
+
+      p.section_head 
         b Gender
 
       label
@@ -23,7 +27,7 @@ block content
         | Female
         br
 
-      p 
+      p.section_head
         b Age group {{$scope.age}}
 
       select(name='age' ng-model='selected_age' ng-change='filterMap()')
@@ -35,7 +39,7 @@ block content
         option(value='{{age[4]}}') {{age[4]}}
         option(value='{{age[5]}}') {{age[5]}}
 
-      p 
+      p.section_head 
         b Issue
 
       select(name='title' ng-model='selected_title' ng-change='filterMap()')
@@ -48,7 +52,7 @@ block content
         option(value='{{title[5]}}') {{title[5]}}
 
       div.issue_list(ng-show='selected_title === title[0]')
-        p 
+        p.section_head 
           b {{title[0]}}
         label
         input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{basic_services[0]}}')
@@ -71,7 +75,7 @@ block content
         br
 
       div.issue_list(ng-show='selected_title === title[1]')
-        p 
+        p.section_head 
           b {{title[1]}}
         label
         input(type  ='checkbox' name='filters' ng-click='filterMap()' value='{{education_improvements[0]}}')
@@ -79,7 +83,7 @@ block content
         br
 
       div.issue_list(ng-show='selected_title === title[2]')
-        p 
+        p.section_head 
           b {{title[2]}}
         label
         input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{health_issues[0]}}')
@@ -95,7 +99,7 @@ block content
         br
 
       div.issue_list(ng-show='selected_title === title[3]')
-        p 
+        p.section_head 
           b {{title[3]}}
         label
         input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{home_improvements[0]}}')
@@ -111,7 +115,7 @@ block content
         br
 
       div.issue_list(ng-show='selected_title === title[4]')
-        p 
+        p.section_head 
           b {{title[4]}}
         label
         input(type  ='checkbox' name='filters_issues' ng-click='filterMap()' value='{{personal_issues[0]}}')
@@ -123,7 +127,7 @@ block content
         br
 
       div.issue_list(ng-show='selected_title === title[5]')
-        p 
+        p.section_head 
           b {{title[5]}}
         label
         input(type  ='checkbox' name='filter_issues' ng-click='filterMap()' value='{{infrastructure_issues[0]}}')
@@ -146,7 +150,8 @@ block content
         | {{infrastructure_issues[4]}}
         br
       #download
-        a(href='/downloads/final.csv' class="btnCsvDownload" download) Download csv
+        p
+          a(href='/downloads/final.csv' class="btnCsvDownload" download) Download csv
     #charts
 
       div.chart_head
@@ -166,13 +171,15 @@ block content
         div.chart_parent
           h1 Total Gender Split
           div(google-chart chart="chart1")
+
+      div.chart_section  
         div.chart_parent
           h1 Total Age Split
           div(google-chart chart="chart2")
 
       div.chart_section
-        h1 Reported Needs
         div.chart_parent
+          h1 Reported Needs
           div(google-chart chart="chart3")
 
       div.chart_section
@@ -199,6 +206,17 @@ block content
       h4 There are a lot of ways to initiate your data acquisition process. Here are some links to build a rapport with the community.
       p
         a(href="http://www.vancouveryouth.ca/sites/covytheme.tidaldevel.com/files/Mapped%20Vancouver%20Final.pdf" class="btnExecute") Mapped: A youth participatory toolkit
+
+  #About
+    h2 About Ugovernance.in
+    h3 Executed as a part of Dissertation submission to CEPT University
+    p
+      img(src="/images/abhishek.png" height="150")
+    h3.name Abhishek Doshi
+    p.contact Contact : abhishek.doshi.bplan12@cept.ac.in
+
+    h3.guide_name Thesis Guide: Prof. Sejal Patel
+    p.contact Contact: Sejal@cept.ac.in 
 
 
           
