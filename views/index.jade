@@ -149,7 +149,7 @@ block content
         a(href='/downloads/final.csv' class="btnCsvDownload" download) Download csv
     #charts
 
-      div
+      div.chart_head
         select(name='cluster' ng-model='selected_cluster' ng-change='draw_charts()')
           option(value='', selected) Select a Cluster
           option(value='{{clusters[0]}}' selected) {{clusters[0]}}
@@ -157,23 +157,50 @@ block content
           option(value='{{clusters[2]}}') {{clusters[2]}}
           option(value='{{clusters[3]}}') {{clusters[3]}}
 
+        h2 Selected cluster : {{selected_cluster}}
+        h3 Total number of data points : {{cluster_node_count}}
+
         
 
       div.chart_section
         div.chart_parent
+          h1 Total Gender Split
           div(google-chart chart="chart1")
         div.chart_parent
+          h1 Total Age Split
           div(google-chart chart="chart2")
 
       div.chart_section
-        div.chart_parent_full
+        h1 Reported Needs
+        div.chart_parent
           div(google-chart chart="chart3")
 
       div.chart_section
-        div.chart_parent
+        div.chart_parent_half
           div(google-chart chart="chart4")
-        div.chart_parent
+        div.chart_parent_half
           div(google-chart chart="chart5")
+
+  #execute
+    #execute_1
+      h1 Execute data collection independently
+      h4 Ugovenance uses sapelli application architecture and community maps integration to acquire data. Download Sapelli appplication from here
+      p
+        a(href="https://www.ucl.ac.uk/excites/software/sapelli" class="btnExecute") Download Sapelli App
+
+    #execute_2
+      h1 Modify Sapelli Application to fit in your needs
+      h4 Sapelli Application can be modified to fit your use case. See the documentation here to modify your application.
+      p
+        a(href="http://wiki.sapelli.org/" class="btnExecute") Sapelli Application Documentation
+
+    #execute_3
+      h1 Execute on Site
+      h4 There are a lot of ways to initiate your data acquisition process. Here are some links to build a rapport with the community.
+      p
+        a(href="http://www.vancouveryouth.ca/sites/covytheme.tidaldevel.com/files/Mapped%20Vancouver%20Final.pdf" class="btnExecute") Mapped: A youth participatory toolkit
+
+
           
 
 

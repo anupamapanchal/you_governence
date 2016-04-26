@@ -25,6 +25,7 @@ var featureLayer={};
 //CHART RELATED VARIABLES  
 $scope.clusters = ['Ramdevnagar','Hollywood Basti', 'Liberty Slums', 'Gharnala Na Chhapra'];
 $scope.selected_cluster = $scope.clusters[0];
+$scope.cluster_node_count = 0;
 $scope.cluster_gender_count = [0,0];
 $scope.cluster_age_count = [0,0,0,0,0,0];
 $scope.cluster_title_count = [0,0,0,0,0,0];
@@ -41,7 +42,7 @@ var mybindPopup = function(){
 var init_map = function(){
     L.mapbox.accessToken = 'pk.eyJ1IjoiYWJoaXNoZWtkb3NoaTEiLCJhIjoiY2lsbm9maWtzMDhlZXV6bHl5YzBqZndsMSJ9.TBDTsl2Jtlr3MGplIDgYJA';
 
-    var map = L.mapbox.map('map', 'mapbox.streets').setView([23.02658980823171,72.51227027527204],16);
+    var map = L.mapbox.map('map', 'abhishekdoshi1.fbfcfb5a').setView([23.02658980823171,72.51227027527204],16);
 
     overlays = L.layerGroup().addTo(map);
     
@@ -59,6 +60,7 @@ $scope.fill_chart_data = function(){
         if(layer.feature.properties.Cluster !== $scope.selected_cluster){
             return;
         }
+        $scope.cluster_node_count +=1;
         //gender
         if(layer.feature.properties.Gender==$scope.gender[0]){
             $scope.cluster_gender_count[0] +=1;
@@ -163,7 +165,7 @@ $scope.draw_chart_1 = function(){
         ]}
     ]};
     $scope.chart1.options = {
-        'title': 'Gender'
+        height: 500
     };
 
 }
@@ -200,7 +202,7 @@ $scope.draw_chart_2 = function(){
         ]},
     ]};
     $scope.chart2.options = {
-        'title': 'Age group'
+        height: 500
     };
 }
 
@@ -236,8 +238,8 @@ $scope.draw_chart_3 = function(){
             {v: $scope.cluster_title_count[5]},
         ]},
     ]};
-    $scope.chart2.options = {
-        'title': 'Issues'
+    $scope.chart3.options = {
+        height: 500
     };
 }
 $scope.draw_chart_4 = function(){
@@ -273,7 +275,9 @@ $scope.draw_chart_4 = function(){
         ]},
     ]};
     $scope.chart4.options = {
-        'title': 'Male Issues'
+        title: "Needs reported by Males",
+        height: 500,
+        width: 500
     };
 }
 
@@ -310,7 +314,9 @@ $scope.draw_chart_5 = function(){
         ]},
     ]};
     $scope.chart5.options = {
-        'title': 'Female Issues'
+        title: "Needs reported by Females",
+        height: 500,
+        width:500
     };
 }
 

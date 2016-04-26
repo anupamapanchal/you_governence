@@ -57,22 +57,62 @@ body {
 #charts{
 	padding: 20px 50px;
 }
+.chart_head{
+	color: white;
+	margin-top: 50px;
+}
 .chart_section{
 	background: white;
-	float: left;
+	display: block;
 	width: 100%;
 	padding: 20px 0;
+	overflow: hidden;
+	text-align: center;
 	
 }
 .chart_parent{
-	width: 50%;
-	float: left;
+	
 }
-.chart_parent_full{
-	width:100%;
-	float: left;
+.chart_parent_half{
+	width:50%;
+	display: inline-block;
+	
 }
 #chart1, #chart2{
 	
+}
+
+#execute{
+
+}
+#execute_1, #execute_2, #execute_3{
+	padding: 200px 20px;
+	text-align: center;
+}
+h1{
+	color: black;
+	margin: 10px;
+}
+h4{
+	color: white;
+	margin: 20px;
+	margin-bottom: 40px;
+}
+.btnExecute{
+	background: white;
+	border-radius: 4px;
+	padding: 10px 20px;
+	border: 1px solid white;
+	text-decoration: none;
+}
+
+#execute_1{
+	background: #F9B644;
+}
+#execute_2{
+	background: #42C299;
+}
+#execute_3{
+	background: #6A4CA6;
 }
 
