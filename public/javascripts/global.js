@@ -42,7 +42,7 @@ var mybindPopup = function(){
 var init_map = function(){
     L.mapbox.accessToken = 'pk.eyJ1IjoiYWJoaXNoZWtkb3NoaTEiLCJhIjoiY2lsbm9maWtzMDhlZXV6bHl5YzBqZndsMSJ9.TBDTsl2Jtlr3MGplIDgYJA';
 
-    var map = L.mapbox.map('map', 'abhishekdoshi1.fbfcfb5a').setView([23.02658980823171,72.51227027527204],16);
+    var map = L.mapbox.map('map', 'abhishekdoshi2007.29dac7bc').setView([23.02658980823171,72.55227027527204],12);
 
     overlays = L.layerGroup().addTo(map);
     
